@@ -8,12 +8,9 @@ while x < len(my_list):
     if number == 0:
         continue
     elif number < 0:
-        print('Встретилось отрицательное число', number)
         break
-
     elif x == len(my_list):
         print(number)
         print('закончился список')
-
     else:
         print(number)
